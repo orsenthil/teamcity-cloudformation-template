@@ -796,7 +796,7 @@ Resources:
       VPCSecurityGroups:
       - Ref: RDSSecurityGroup
       Engine: MySQL
-      EngineVersion: 5.5.54
+      EngineVersion: 8.0.35
       MasterUsername: teamcity
       MasterUserPassword: !Ref 'DBPassword'
       DBParameterGroupName: !Ref 'RDSParamGroup'
